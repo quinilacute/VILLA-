@@ -1,0 +1,935 @@
+body{
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+header .second {
+    color: black;
+    text-align: center;
+    padding: 20px;
+    top: 1%;
+}
+
+.second {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 10px;
+}
+
+.cont{
+    font-size: 15px;
+    color: white;
+    border: 1px solid black;
+    width: 9%;
+    height: 26px;
+    border-radius: 9px;
+    background-color: black;
+    text-align: right;
+}
+ nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    position: absolute;
+    text-align: left;
+    color:black;
+    left: 10%;
+    top: 9%;
+}
+    
+header .first{
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 10px;
+    border: rgb(93, 89, 89);
+}
+
+.first nav a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.first img{
+    height: 15px;
+}
+header .first1{
+    color: black;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+}
+
+.first1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    top: 1%;
+    left: 8%;
+    margin: 10px;
+    border: rgb(93, 89, 89);
+}
+
+.first1 img{
+    height: 11px;
+    width:12%;
+    color: orangered;
+}
+
+
+/* for feature page */
+
+.gpt p{
+    position: absolute;
+    text-align: left;
+    color: white;
+    left: 9%;
+    top: 40%;
+    font-weight: 790;
+    font-size: 60px;
+}
+
+.gpt h2{
+    position: absolute;
+    text-align: left;
+    color: black;
+    left: 9%;
+    top: 33%;
+    font-size: 17px;
+    background-color: white;
+}
+
+.gpt span{
+    color: orangered;
+}
+.ff img{
+    position: absolute;
+    margin: 60px;
+    left: 2%;
+    top: 129%;
+    margin-top: 6%;
+    width: 18%;
+    height: 59%;
+  }
+
+.if{
+    position: absolute;
+    margin: 60px;
+    left: 1%;
+    top: 185%;
+    margin-top: 6%;
+    background-color: orangered;
+}  
+
+.fea{
+  position: relative;
+  font-size: 21px;
+  font-weight: 60%;
+  margin: 60px;
+  left: 22%;
+  top: 40%;
+  margin-top: 6%;
+}
+
+.jj{
+    color: orangered;
+    font-size: 11px;
+}
+
+.links{
+    position: relative;
+    font-size: 21px;
+    font-weight: 60%;
+    margin: 60px;
+    left: 22%;
+    background-color: rgb(249, 247, 247);
+    margin-top: 2%;
+    width: 45%;
+    height:40%;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+    grid-gap: 7px;
+}
+.links p{
+    text-align:left;
+    top: 0%;
+    right: 13%;
+    font-size: 17px;
+    color: black;
+ }
+
+.be{
+    color: orangered;
+}
+
+.form2{
+    top: 140%;
+    right: 11%;
+    font-size: 11px;
+    grid-gap: 70px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+}
+.form2 h2{
+    font-size: 19px;
+    margin-top: 0%;
+    position: relative;
+}
+
+.form2 img{
+    height: 60px;
+}
+.form2{
+    width: 17%;
+    height: 450px;
+    background: white;
+    border-radius: 3%;
+    border: 1px solid black;
+}
+
+
+.deal1{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 35%;
+    top: 5%;
+    position: absolute;
+    justify-content: center;
+}
+
+.deal1 img{
+    position: absolute;
+    right: 113%;
+    top: 4%;
+}
+
+.li{
+    margin-top: 0%;
+    position: relative;
+}
+
+.deal2{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 35%;
+    top: 26%;
+    position: absolute;
+    justify-content: center;
+}
+
+.deal2 img{
+    position: absolute;
+    right: 113%;
+    top: 30%;
+}
+
+.lt{
+    padding-top: 23%;
+}
+.payment{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 35%;
+    top: 44%;
+    position: absolute;
+    justify-content: center;
+}
+
+
+.payment img{
+    position: absolute;
+    right: 113%;
+    top: 44%;
+}
+
+.it{
+    padding-top: 50%;
+}
+.Safety{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 39%;
+    top:65%;
+    position: absolute;
+    justify-content: center;
+}
+
+.Safety img{
+    position: absolute;
+    right: 113%;
+    top: 53%;
+}
+
+.le{
+    padding-top: 60%;
+}
+ /* for video page */
+.video{
+    background-image: url("/images/video-bg.jpg");
+    height: 390px;
+    background-position: center ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.view{
+    color: orangered;
+    font-size: 12px;
+    position: absolute;
+    margin: 60px;
+    left: 41%;
+    top: 236%;
+    margin-top: 3%;
+}
+
+.Get{
+    font-size: 33px;
+    position: absolute;
+    margin: 60px;
+    left: 34%;
+    top: 242%;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+}
+.img img{
+    position: absolute;
+    margin: 60px;
+    left: 6%;
+    top: 251%;
+    margin-top: 6%;
+    width: 80%;
+    height: 48%;
+ }
+
+.three{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 280px;
+    font-weight: 60%;
+    justify-content: center;
+    top:163%;
+    position: relative;
+    margin: 10px;
+}
+ .three h2{
+    font-size: 30px; 
+    color: orangered;
+}
+
+.three h3{
+    font-size: 14px;
+    color: black;
+}
+
+.con1{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 22%;
+    top: 30%;
+    position: absolute;
+    justify-content: center;
+}
+.con1{
+    width: 13%;
+    height: 80px;
+    background: rgb(215, 152, 129);
+    border-radius: 5%;
+}
+
+.con1 h3{
+    left: 6%;
+    top: 1%;
+    margin-top: 14%;
+    position: relative;
+}
+
+
+.year{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 46%;
+    top: 40%;
+    position: absolute;
+    justify-content: center;
+}
+
+.year{
+    width: 13%;
+    height: 80px;
+    background: rgb(215, 152, 129);
+    border-radius: 5%;
+}
+.year h3{
+    left: 6%;
+    top: 1%;
+    margin-top: 14%;
+    position: relative;
+}
+
+.won{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 68%;
+    top: 30%;
+    position: absolute;
+    justify-content: center;
+}
+
+.won{
+    width: 13%;
+    height: 80px;
+    background: rgb(215, 152, 129);
+    border-radius: 5%;
+}
+
+.won h3{
+    left: 6%;
+    top: 1%;
+    margin-top: 14%;
+    position: relative;
+}
+
+/* for deal page */
+.dea{
+  background-color: rgb(249, 247, 247);
+  top: 333%;
+  width: 100%;
+  height:76%;
+  margin: bottom;
+  position:absolute;
+}
+
+.Best{
+    position: absolute;
+    margin: 10px;
+    left: 4%;
+    top: 0%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.Best h2{
+    font-size: 10px;
+    color: orangered;
+}
+
+.Best h3{
+    font-size: 20px;
+    color: black;
+}
+
+.dea img{
+    position: relative;
+    margin: 10px;
+    left: 37%;
+    top: 0%;
+    margin-top: 13%;
+    text-align: left;
+}
+
+.apart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    right: 16%;
+    top: 14%;
+    position: absolute;
+    justify-content: right;
+    margin: 10px;
+    grid-gap: 30px;
+    font: white;
+}
+
+.a {
+    font-size: 10px;
+    color: white;
+    width: 34%;
+    height: 20px;
+    border-radius: 1px;
+    background-color:orangered;
+    text-align: center ;
+}
+
+.b{
+    font-size: 10px;
+    color: white;
+    width: 34%;
+    height: 20px;
+    border-radius: 1px;
+    background-color:black;
+    text-align: center ;
+}
+
+.c{
+    font-size: 10px;
+    color: white;
+    width: 34%;
+    height: 20px;
+    border-radius: 1px;
+    background-color:black;
+    text-align: center ;
+}
+
+
+.extra{
+    position: absolute;
+    font-weight: 60%;
+    margin: 60px;
+    right:  3%;
+    top: 17%;
+    margin-top: 6%;
+}
+
+.extra a{
+    font-size: 14px;
+    color: white;
+    width: 6%;
+    height: 16px;
+    border-radius: 4px;
+    background-color: black;
+    text-align: center;
+}
+
+
+.total{
+    top: 36%;
+    left: 8%;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+}
+.total h2{
+    font-size: 14px;
+    color: black;
+    margin-top: 0%;
+    position: relative;
+}
+
+.total h3{
+    font-size: 9px;
+    color: rgb(96, 92, 92);
+}
+.total{
+    width: 17%;
+    height: 240px;
+    background: white;
+    border-radius: 3%;
+    border: 0.5px solid rgb(124, 116, 116);
+}
+
+
+.flat{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 10%;
+    top: 5%;
+    position: absolute;
+    justify-content: center;
+}
+
+.flat h2{
+    padding-left: 80%;
+    padding-top: 9%;
+    position: absolute;
+}
+
+.floor{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 10%;
+    top: 26%;
+    position: absolute;
+    justify-content: center;
+}
+
+.floor h2{
+    padding-left: 120%;
+    padding-top: 9%;
+    position: absolute;
+}
+
+.rooms{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 10%;
+    top: 44%;
+    position: absolute;
+    justify-content: center;
+}
+
+.rooms h2{
+    padding-left: 80%;
+    padding-top: 9%;
+    position: absolute;
+}
+
+.park{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 10%;
+    top:64%;
+    position: absolute;
+    justify-content: center;
+}
+
+.park h2{
+    padding-left: 80%;
+    padding-top: 9%;
+    position: absolute;
+}
+
+.pro{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 10%;
+    top:84%;
+    position: absolute;
+    justify-content: center;
+}
+
+.pro h2{
+    padding-left: 80%;
+    padding-top: 9%;
+    position: absolute;
+}
+
+
+/* for property page */
+.property{
+    background-attachment: fixed;
+    top: 433%;
+    margin: bottom;
+    left: 12%;
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 10px; 
+    grid-gap: 80px;
+}
+
+.property h2{
+    padding-left:59%;
+    margin-top: 3%;
+    color: orangered;
+}
+
+
+.Luxury img{
+    height: 220px;
+    border-radius: 3%;
+    padding-left: 0%;
+}
+ .siv{
+    background-color: rgb(228, 176, 176);
+    width: 24%;
+    height: 16px;
+    border: 1px solid rgb(183, 182, 182);
+    border-radius: 3px;
+    text-align: center;
+ }
+
+ .siv1{
+    color: white;
+    font-weight: 100;
+    justify-content: right;
+    left: 30%;
+    top: 6%;
+    position: relative;
+    background-color: black;
+    width: 33%;
+    height: 19px;
+    border: 1px solid ;
+    border-radius: 11px;
+    text-align: center;
+ }
+.Lux img{
+    height: 220px;
+    border-radius: 3%;
+    padding-left: 0%;
+}
+
+.xury img{
+    height: 220px;
+    border-radius: 3%;
+    padding-left: 0%;
+}
+
+.properties{
+    position: absolute;
+    margin: 60px;
+    left: 39%;
+    top: 405%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.properties h2{
+    font-size: 12px;
+    color: orangered;
+}
+
+.properties h3{
+    font-size: 25px;
+    color: black;
+}
+
+.property span{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.pay2{
+    font-size: 19px;
+    top: 50%;
+    right: 36%;
+    position: absolute;
+}
+
+.pay1{
+    font-size: 19px;
+    top: 50%;
+    right:  72%;
+    position: absolute;
+}
+
+.pay3{
+    font-size: 19px;
+    top: 50%;
+    right: 0%;
+    position: absolute;
+}
+
+
+
+/* for contact page */
+.us{
+   font-size: 33px;
+    position: absolute;
+    margin: 10px;
+    left: 44%;
+    top: 7%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.us h3{
+    font-size: 19px;
+    color: orangered;
+}
+
+.us h2{
+    font-size: 29px;
+    color: black;
+}
+.contact{
+    background-attachment: fixed;
+    top: 498%;
+    margin: bottom;
+    position:absolute;
+    margin: 10px; 
+}
+
+.contact img{
+    height: 437px;
+    width:150% ;
+}
+
+
+.details{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-gap: 200px;
+    justify-content: left;
+    top:583%;
+    left: 1%;
+    position: absolute;
+    margin: 10px;
+}
+.details span{
+    font-size: 11px;
+    color: rgb(91, 87, 87);
+    position: relative;
+}
+
+.details h2{
+    font-size: 14px;
+    color: black;
+}
+
+
+.con{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 2%;
+    top: 30%;
+    position: relative;
+    justify-content: center;
+}
+.con{
+    width: 40%;
+    height: 80px;
+    background: rgb(225, 220, 220);
+    border-radius: 5%;
+}
+
+.con h2{
+    left: 6%;
+    top: 1%;
+    margin-top: 12%;
+    position: relative;
+}
+.con img{
+    height: 48px;
+    top: 26%;
+    position: relative;
+}
+.email{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:  nowrap;
+    left: 33%;
+    top: 30%;
+    position: relative;
+    justify-content: center;
+}
+.email{
+    width: 69%;
+    height: 80px;
+    background: rgb(225, 220, 220);
+    border-radius: 5%;
+}
+.email h2{
+    left: 6%;
+    top: 1%;
+    margin-top: 14%;
+    position: relative;
+}
+
+.email img{
+    height: 37px;
+    top: 26%;
+    position: relative;
+}
+
+.Container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    top:554%;
+    right: 10%;
+    position: absolute;
+    margin: 10px;
+}
+
+.Container{
+    width: 14%;
+    height: 290px;
+    background: rgb(225, 220, 220);
+    border-radius: 3%;
+}
+
+form{
+     position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+
+form .co{
+    color: white;
+    width: 79%;
+    height: 22px;
+    border-radius: 9px;
+    background-color: black;
+   
+  
+}
+footer{
+    background-color: black;
+    color: #e9d3d3;
+    text-align: center;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 600%;
+    width: 100%;
+}
+
+/* for map
+#embed-map-display{
+    text-decoration: none;
+    overflow: hidden;
+    max-width: 100%;
+    width: 500px;
+    height: 500%;
+}
+
+#embed-map-display iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+
+#embed-map-display .map-generator{
+    max-width: 100%;
+    max-height: 100%;
+    background: none;
+} */
